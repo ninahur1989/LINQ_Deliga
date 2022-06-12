@@ -6,6 +6,8 @@ namespace LINQ_Deliga
     {
         public static void Main(string[] args)
         {
+            Logic logic = new Logic();
+            Console.WriteLine(logic.SumResult(logic.Sum, 3, 43, 331, 431));
         }
     }
 }
